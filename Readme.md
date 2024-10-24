@@ -26,7 +26,7 @@ Para descargarnos LAMP, vamos a seguir estas instrucciones:
     ```
     * Al hacer esta instalación nos saldrá una serie de preguntas. A continuación, pondremos lo que hay que marcar en cada una:
 
-    ![Imagen preguntas](imagenPreguntas.png)
+    ![Imagen preguntas](img/imagenPreguntas.png)
 
 
 3. Instalación de PHP
@@ -50,7 +50,7 @@ docker run -it --name ubuntu-lamp -p 8080:80 -p 3306:3306 ubuntu:22.04 bash
 ```
 
 Nos debería aparecer esto:
-![Imagen Root](imagenRoot.png)
+![Imagen Root](img/imagenRoot.png)
 
 # 
 #
@@ -79,7 +79,7 @@ apt install php libapache2-mod-php php-mysql -y
 ```
 En la instalación nos pedirá que introduzcamos nuestra área geográfica y nuestro huso horario, tal como indica en la foto
 
-![Preguntas MySQL](preguntasMySQL.png)
+![Preguntas MySQL](img/preguntasMySQL.png)
 
 * Ahora reiniciaremos Apache para habilitar PHP
 ```
