@@ -144,6 +144,9 @@ apt update && apt install nano -y
 * Una vez dentro del archivo, modificaremos estas líneas
 ![Database](img/Database.png)
 
+* Tambien busca lo que aparece en la imagen y lo cambias por lo que hay en este [link](https://api.wordpress.org/secret-key/1.1/salt/)
+![Borrar](img/Borrar.png)
+
 
 
 ## 3. Comprobamos que podemos acceder a WordPress
