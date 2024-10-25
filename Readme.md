@@ -26,7 +26,7 @@ Para descargarnos LAMP, vamos a seguir estas instrucciones:
     ```
     * Al hacer esta instalación nos saldrá una serie de preguntas. A continuación, pondremos lo que hay que marcar en cada una:
 
-    ![Imagen preguntas](img/imagenPreguntas.png)
+    ![Imagen preguntas](img/ImagenPreguntas.png)
 
 
 3. Instalación de PHP
@@ -99,6 +99,7 @@ apt install apache2 \ghostscript \libapache2-mod-php \mysql-server \php \php-bcm
 2. Ahora crearemos el directorio de instalación para luego descargar el archivo desde WordPress.org. Después de todo esto lo descomprimiremos:
 ```
 mkdir /var/www/html/wordpress
+cd /var/www/html
 wget https://wordpress.org/latest.tar.gz
 tar -xvzf latest.tar.gz
 ```
@@ -134,7 +135,11 @@ mv wordpress/* .
 ```
 cp wp-config-sample.php wp-config.php
 
-nano wp-config.php (para editar el archivo)
+nano wp-config.php 
+```
+* Si tampoco tienes instalado nano, introduce este comando:
+```
+apt update && apt install nano -y
 ```
 * Una vez dentro del archivo, modificaremos estas líneas
 ![Database](img/Database.png)
