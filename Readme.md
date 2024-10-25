@@ -147,3 +147,19 @@ apt update && apt install nano -y
 
 
 ## 3. Comprobamos que podemos acceder a WordPress
+
+Para comprobar que podemos acceder a WordPress haremos lo siguiente:
+
+1. Si estás desde una máquina virtual, ve a la pestaña de red ![Imagen Red](img/Red1.png)
+    * Una vez entrado en "Avanzado" le damos a reenvio de puertos
+    * Le damos al + y ponemos esto ![Imagen Red 2](img/Red2.png)
+    * Después de hacer todo esto, vamos a nuestro buscador y ponemos
+    ```
+    http://localhost:8080
+    ```
+2. Si no estás utilizando una máquina virtual, simplemente busca ```http://localhost:8080```
+
+
+Lo que os saldrá será algo así
+![Funciona](img/Funciona.png)
+Que es la página por defecto de Apache
